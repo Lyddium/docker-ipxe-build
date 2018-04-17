@@ -3,4 +3,4 @@
 prompt --key 0x02 --timeout 2000 Press Ctrl-B for the iPXE command line... && shell
 
 dhcp
-chain bootstrap.ipxe
+chain http://10.76.101.2//bootstrap.ipxe
